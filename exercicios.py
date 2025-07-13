@@ -126,18 +126,37 @@ import math
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
-x = int(input("valor 1:"))
-y = int(input("valor 2:"))
+# x = int(input("valor 1:"))
+# y = int(input("valor 2:"))
 
-if x != y:
-    print("nao sao iguais")
-else:
-    print("sao iguais")
+# if x != y:
+#     print("nao sao iguais")
+# else:
+#     print("sao iguais")
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+# try:
+#     numero = int(input("valor 1:"))
+
+#     z = numero * (9/5) + 32
+#     print(z)
+# except:
+#     print("voce nao digitou um numero")
+
 # 22: Verificador de Palíndromo
+entrada = input("Digite uma palavra ou frase: ")
+if isinstance(entrada, str):
+    formatado = entrada.replace(" ", "").lower()
+    if formatado == formatado[::-1]:
+        print("É um palíndromo.")
+    else:
+        print("Não é um palíndromo.")
+else:
+    print("Entrada inválida. Por favor, digite uma palavra ou frase.")
+
 # 23: Calculadora Simples
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
