@@ -90,18 +90,49 @@ import math
 # print(y[2])
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-x = str(input("nome : "))
-y = str(input("sobrenome : "))
+# x = str(input("nome : "))
+# y = str(input("sobrenome : "))
 
-print(x + y)
+# print(x + y)
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# x = bool(input("valor 1:"))
+# y = bool(input("valor 2:"))
+# z = x and y
+# print(z)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# x = bool(input("valor 1:"))
+# y = bool(input("valor 2:"))
+# z = x or y
+# print(z)
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# x = bool(input("valor 1:"))
+
+# z = not x
+# print(z)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# x = int(input("valor 1:"))
+# y = int(input("valor 2:"))
+
+# if x == y:
+#     print("são iguais")
+# else:
+#     print("nao sao iguais")
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+x = int(input("valor 1:"))
+y = int(input("valor 2:"))
+
+if x != y:
+    print("nao sao iguais")
+else:
+    print("sao iguais")
 
 # #### try-except e if
 
