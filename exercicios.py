@@ -158,25 +158,40 @@ import math
 
 # 23: Calculadora Simples
 
+# try:
+
+#     num_1 = int(input("Insira o primeiro numero: "))
+#     num_2 = int(input("Insira o segundo numero: "))
+    
+#     operacao = input("Insira a operação desejada: ")
+
+#     if operacao == "+":
+#         resultado = num_1 + num_2
+#     elif operacao == "-":
+#         resultado = num_1 - num_2
+#     elif operacao == "/":
+#         resultado = num_1 / num_2
+#     elif operacao == "*":
+#         resultado = num_1 * num_2
+
+#     print(resultado)
+# except:
+#     print("Voce digitou um valor não aceito")
+
+# 24: Classificador de Números
+
 try:
 
-    num_1 = int(input("Insira o primeiro numero: "))
-    num_2 = int(input("Insira o segundo numero: "))
-    
-    operacao = input("Insira a operação desejada: ")
+    num_1 = int(input("Insira o primeiro numero: "))    
 
-    if operacao == "+":
-        resultado = num_1 + num_2
-    elif operacao == "-":
-        resultado = num_1 - num_2
-    elif operacao == "/":
-        resultado = num_1 / num_2
-    elif operacao == "*":
-        resultado = num_1 * num_2
+    if num_1 < 0:
+        print("O numero inserido é negativo")
+    elif num_1 > 0:
+        print("O numero inserido é positivo")
+    elif num_1 == 0:
+        print("O numero inserido é zero")
 
-    print(resultado)
 except:
     print("Voce digitou um valor não aceito")
 
-# 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
