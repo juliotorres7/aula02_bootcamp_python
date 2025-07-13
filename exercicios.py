@@ -68,15 +68,32 @@ import math
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
-x = str(input("valor 1:"))
+# x = str(input("valor 1:"))
 
-print(x.upper)
-
+# print(x.upper())
 
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+# x = str(input("nome completo: "))
+
+# print(x.lower())
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+# x = str(input("nome completo: "))
+
+# print(x.strip())
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+# x = str(input("igitar uma data no formato 'dd/mm/aaaa' "))
+
+# y = x.split("/")
+# print(y)
+# print(y[0])
+# print(y[1])
+# print(y[2])
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+x = str(input("nome : "))
+y = str(input("sobrenome : "))
+
+print(x + y)
 
 # #### Booleanos (`bool`)
 
