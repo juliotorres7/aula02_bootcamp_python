@@ -180,18 +180,28 @@ import math
 
 # 24: Classificador de Números
 
-try:
+# try:
 
-    num_1 = int(input("Insira o primeiro numero: "))    
+#     num_1 = int(input("Insira o primeiro numero: "))    
 
-    if num_1 < 0:
-        print("O numero inserido é negativo")
-    elif num_1 > 0:
-        print("O numero inserido é positivo")
-    elif num_1 == 0:
-        print("O numero inserido é zero")
+#     if num_1 < 0:
+#         print("O numero inserido é negativo")
+#     elif num_1 > 0:
+#         print("O numero inserido é positivo")
+#     elif num_1 == 0:
+#         print("O numero inserido é zero")
 
-except:
-    print("Voce digitou um valor não aceito")
+# except:
+#     print("Voce digitou um valor não aceito")
 
 # 25: Conversão de Tipo com Validação
+
+entrada_lista = input("Digite uma lista de números separados por vírgula: ")
+numeros_str = entrada_lista.split(",")
+numeros_int = []
+try:
+    for num in numeros_str:
+        numeros_int.append(int(num.strip()))
+    print("Lista de inteiros:", numeros_int)
+except:
+    print("Insira um valor inteiro")
